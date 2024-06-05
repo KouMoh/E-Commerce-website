@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="header-1">
+            <a href="#" class="logo"><i class="fas fa-shopping-basket"></i>Grocery</a>
+
+            <form action="" class="search-box-container">
+                <input type="search" id="search-box" placeholder="Search here">
+                <label for="search-box" class="fas fa-search"></label>
+            </form>
+
+        </div>
+
+        <div class="header-2">
+
+            <div id="menu-bar" class="fas fa-bars"></div>
+
+            <nav class="navbar">
+                <a href="#home">Home</a>
+                <a href="#products">Product</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="icons">
+                <a href="#" id="cart-icon" class="fas fa-shopping-cart">
+                </a>
+                <span id="cart-count">0</span>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-user-circle"></a>
+            </div>
+        </div>
+
+
+    </header>
+
+    <section class="home" id="home">
+
+        <div class="image">
+            <img src="images\images\pack1.png" alt="">
+        </div>
+
+        <div class="content">
+            <span>fresh and organic</span>
+            <h3>your daily need products</h3>
+            <a href="#" class="btn">get started</a>
+        </div>
+
+    </section>
+
+    <section class="banner-container">
+        
+        <div class="banner">
+            <img src="https://img.freepik.com/free-photo/variety-fresh-tasty-vegetables-dark_1220-4444.jpg?t=st=1717328518~exp=1717332118~hmac=f7a8f474c2e83c348d126e5de1f976cdeb2fae875b0cceece4328223ca1a46e4&w=740" alt="">
+
+            <div class="content">
+                <h3>special offer</h3>
+                <span>upto 45% off</span>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+        
+        <div class="banner">
+            <img src="images\images\bg-2.png" alt="">
+
+            <div class="content">
+                <h3>limited offer</h3>
+                <span>upto 50% off</span>
+                <a href="#" class="btn">check out</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="products">
+
+        <h1 class="heading">Latest <span>products</span></h1>
+
+        <div class="box-container">
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="https://img.freepik.com/free-photo/single-banana-isolated-white-background_839833-17794.jpg?t=st=1717342078~exp=1717345678~hmac=df105c9b5f40dd0c7f01a4529771194d1b4af032609aa9ea1caa1e1d5da3ba26&w=1380" alt="">
+                <h3>banana</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="banana" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+        
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images/images/apple.png" alt="">
+                <h3>apple</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="apple" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+        
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images\images\chili.png" alt="">
+                <h3>chili</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="chili" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+        
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images\images\garlic.png" alt="">
+                <h3>garlic</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="garlic" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+        
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images\images\patato.png" alt="">
+                <h3>potato</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="potato" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+        
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images\images\tamato.png" alt="">
+                <h3>tomato</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="tomato" data-id="product1">add to cart</a>
+                
+
+
+            </div>
+            
+            
+            <div class="box">
+                <p class="discount">-33%<p>
+                    <div class="icons">
+                        <a href="#" class="fas fa-heart"></a>
+                        <a href="#" class="fas fa-share"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                    </div>
+
+                <img src="images\images\onion.png" alt="">
+                <h3>onion</h3>
+
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+
+                <div class="price">
+                    10.50
+                </div>
+
+                <div class="quantity">
+                    <span>quantity : </span>
+                    <input type="number" min="0" max="100" value="0">
+                </div>
+
+                <a href="" class="btn" id="onion" data-id="product1" onclick="addToCart('onion')">add to cart</a>
+                
+
+
+            </div>
+
+
+
+        
+        
+        
+        
+        </div>
+
+    </section>
+
+</body>
+
+</html>
